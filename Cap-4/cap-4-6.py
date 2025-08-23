@@ -12,7 +12,7 @@
 import numpy as np
 ds = np.loadtxt('Cap-4/Data/space.csv',delimiter=';',dtype=str,encoding='utf-8')
 
-#1. Apresente a porcentagem de missões que deram certo
+#1.
 totalMissoes = ds.shape[0]-1
 porcentagem_sucesso = (np.sum(ds[1:,7] == 'Success') / totalMissoes) * 100
 print(f'Porcentagem de missões que deram certo: {porcentagem_sucesso:.2f}%')
