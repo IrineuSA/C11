@@ -27,7 +27,7 @@ import numpy as np
 #print(np.char.find(arr,'GO'))
 
 # importando datasets np 
-ds = np.loadtxt('space.csv',delimiter=';',dtype=str,encoding='utf-8')
+ds = np.loadtxt('Cap-4/Data/space.csv',delimiter=';',dtype=str,encoding='utf-8')
 #print(ds)
 # colunas do dataset
 print(ds[0,:])
