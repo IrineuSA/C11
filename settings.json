@@ -1,0 +1,25 @@
+import numpy as np
+ds = np.loadtxt('Ex-1/Data/paises.csv',delimiter=';',dtype=str,encoding='utf-8')
+#slicing no dataset para mostrar certas colunas
+ds_slice = ds[1:,[*colunas*]]
+print('colunas a exibir')
+print(ds_slice)
+#conte e em seguida mostre certas infos
+ds_reg = ds[1:,*coluna*]
+reg, count = np.unique(ds_reg, return_counts=True)
+print(f'*info p exibir: {reg.shape[0]}')
+print(reg)
+#Mostre qual a taxa média de certa coluna
+ds_lit = ds[1:,*coluna*].astype(float)
+print(f'*info: {ds_lit.mean():.2f}%')
+#conte quantos unicos de alguma coisa
+ds_na = ds[1:,*coluna*]
+ds_count = np.char.count(ds_na, 'info que procura')
+print(f'info: {np.sum(ds_count)}')
+#encontre maximo valor de uma coluna
+ds_sa = np.char.strip(ds[1:,*coluna que quer*]) == 'LATIN AMER. & CARIB'
+gdp = ds[1:,*valor que quer*].astype(float)
+gdp_sa = gdp[ds_sa]
+ds_sa_max = ds[1:,*valor max*][ds_sa]
+max_gdp = np.argmax(gdp_sa)
+print(f'info: {ds_sa_max[max_gdp].strip()} ({gdp_sa[max_gdp]:.2f})')
