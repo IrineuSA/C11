@@ -1,4 +1,4 @@
-#6. Utilizando do DataFrame, calcule a
+#6. Utilizando do DataFrame exemplo do tópico 5.3 deste material, calcule a
 #média dos elementos da coluna X que são menores que 30;
 #7. Utilizando do mesmo DataFrame, apresente a média dos elementos da
 #linha D usando a função loc() como base e a soma dos elementos da linha E
