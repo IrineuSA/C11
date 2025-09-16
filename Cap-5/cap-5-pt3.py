@@ -17,7 +17,6 @@
 #coluna foi feita com sucesso.
 
 import pandas as pd
-import numpy as np
 #1.
 dfPaises = pd.read_csv('Cap-5/Data/paises.csv',delimiter=';')
 print(dfPaises.head())
