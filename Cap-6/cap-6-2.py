@@ -1,12 +1,11 @@
 #2. Por meio do dataset space.csv, trace um gráfico em barras
 #mostrando quantas empresas espaciais diferentes os EUA e a CHINA
 #possuem;
-#Dica: não se esqueça de retirar os resultados repetidos
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dSpace = pd.read_csv('F:\\Users\\Rockmore\\Documentos\\Inatel\\25-2\\C11\\Cap-6\\Data\\space.csv',delimiter=';')
+dSpace = pd.read_csv('C:\\Users\\Irineu\\Documents\\Projetos\\C11\\Cap-6\\Data\\space.csv',delimiter=';')
 
 dUS = dSpace[dSpace['Location'].str.contains(" USA")]
 dCN = dSpace[dSpace['Location'].str.contains(" China")]
